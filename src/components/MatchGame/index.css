@@ -1,0 +1,114 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-container {
+  width: 80%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.game-container {
+  width: 80%;
+  max-width: 600px;
+}
+@media screen and (max-width: 768px) {
+  .bg-container {
+    width: 100%;
+  }
+  .game-container {
+    width: 90%;
+  }
+}
+.active-image {
+  width: 100%;
+}
+.tabs-container {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+.thumbnail-container {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.game-over-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-size: cover;
+  width: 80%;
+  max-width: 600px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.trophy-img {
+  width: 300px;
+  margin-top: 250px;
+}
+@media screen and (max-width: 768px) {
+  .game-over-container {
+    width: 95%;
+  }
+  .trophy-img {
+    width: 150px;
+    margin-top: 200px;
+  }
+}
+.play-again-text {
+  color: #ffffff;
+  font-size: 20px;
+}
+.final-score {
+  color: #ffffff;
+  font-size: 46px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.play-again-btn {
+  display: flex;
+  align-items: center;
+  background-color: #cf60c8;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 768px) {
+  .game-over-container {
+    width: 95%;
+  }
+  .trophy-img {
+    width: 150px;
+    margin-top: 200px;
+  }
+  .play-again-btn {
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+  }
+}
+.reset-logo {
+  width: 24px;
+  height: 24px;
+}

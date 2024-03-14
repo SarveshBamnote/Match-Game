@@ -1,0 +1,21 @@
+.images-list {
+  list-style-type: none;
+}
+.thumbnail-btn {
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 10px;
+}
+.image {
+  width: 100px;
+  height: 100px;
+}
+@media screen and (max-width: 768px) {
+  .image {
+    width: 80px;
+    height: 80px;
+  }
+}
